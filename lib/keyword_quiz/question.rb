@@ -1,5 +1,4 @@
-#require 'movie_info'
-
+module KeywordQuiz
 
 	class Question
 	  attr_accessor :keyword, :choices, :answer
@@ -20,3 +19,5 @@
 	  
 	  end
 	end
+
+end

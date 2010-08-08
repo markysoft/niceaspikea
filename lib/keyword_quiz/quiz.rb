@@ -1,5 +1,6 @@
-
+module KeywordQuiz
 	class Quiz
+	  
 	  attr_accessor :questions
 	  def initialize(title)
 	    @questions = []
@@ -7,3 +8,4 @@
 	  end
 	  
 	end
+end

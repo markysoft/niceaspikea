@@ -1,4 +1,4 @@
-
+module KeywordQuiz
 	class MovieInfo
 	
 	  attr_accessor :title, :movieID, :keywords, :thumbnail
@@ -10,3 +10,4 @@
 	  end
 	  
 	end
+end
